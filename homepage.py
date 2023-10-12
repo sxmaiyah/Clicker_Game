@@ -2,7 +2,7 @@ from tkinter import *
 
 window = Tk()
 window.title("Girl Boss Clickers")
-window.geometry("1000x1000")
+window.geometry("1000x500")
 #window.resizable(width=False, height=False)
 #bg = PhotoImage(file = "background.png")
 
@@ -12,6 +12,9 @@ window.geometry("1000x1000")
 def gamePage():
     window.destroy()
     #import girlbossclickers
+
+frame = Frame(window)
+
 
 issiephoto = PhotoImage(file = "izzyface.png")
 ammarahphoto = PhotoImage(file = "ammarahface.png")
@@ -23,7 +26,9 @@ Button(
     window,
     text="Issie", image = issiephoto,
     command=gamePage
-    ).pack(fill=X, expand=TRUE, side=LEFT)
+    ).grid(column=0, row=0)
+
+frame.pack(fill=X, expand=TRUE, side=LEFT)
 
 Button(
     window,
