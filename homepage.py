@@ -1,8 +1,8 @@
-import tkinter as tk
+from tkinter import *
 
-window = tk()
+window = Tk()
 window.title("Girl Boss Clickers")
-window.geometry("1000*1000")
+window.geometry("1000x1000")
 bg = PhotoImage(file = "background.png")
 
 bgLabel = Label(window, image = bg)
