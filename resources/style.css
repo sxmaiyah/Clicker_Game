@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    background-color: none;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    margin-top: 20px;
+}

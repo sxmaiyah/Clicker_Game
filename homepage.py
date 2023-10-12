@@ -1,5 +1,4 @@
 from tkinter import *
-import eel
 
 window = Tk()
 window.title("Girl Boss Clickers")
@@ -17,13 +16,13 @@ def gamePage():
 frame = Frame(window)
 
 
-issiephoto = PhotoImage(file = "images/izzyface.png")
-ammarahphoto = PhotoImage(file = "images/ammarahface.png")
-samphoto = PhotoImage(file = "images/samface.png")
-sumphoto = PhotoImage(file = "images/sumface.png")
-chrisphoto = PhotoImage(file = "images/chrisface.png")
-marcophoto = PhotoImage(file = "images/marcoface.png")
-titlephoto = PhotoImage(file = "images/Title.png")
+issiephoto = PhotoImage(file = "resources/images/izzyface.png")
+ammarahphoto = PhotoImage(file = "resources/images/ammarahface.png")
+samphoto = PhotoImage(file = "resources/images/samface.png")
+sumphoto = PhotoImage(file = "resources/images/sumface.png")
+chrisphoto = PhotoImage(file = "resources/images/chrisface.png")
+marcophoto = PhotoImage(file = "resources/images/marcoface.png")
+titlephoto = PhotoImage(file = "resources/images/Title.png")
 
 titleLabel = Label(frame, image = titlephoto, anchor = CENTER).grid(column=1, row=0) 
 
