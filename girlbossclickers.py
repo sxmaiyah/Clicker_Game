@@ -8,7 +8,7 @@ def clicker():
     score += 1
     scoreLbl.config(text='Score: {0}'.format(score))
 
-def main():
+def main(player):
     game = Tk()
     game.title("Girl Boss Clickers")
     game.geometry("1000x1000")
@@ -17,8 +17,7 @@ def main():
     scoreLbl = Label(game, text ='Score: {0}'.format(score), font = "50")  
     scoreLbl.pack() 
 
-    player = "Chris"
-    if player == "issie":
+    if player == "Issie":
         playerFace = PhotoImage(file = "resources/images/izzyface.png")
     elif player == "Ammarah":
         playerFace = PhotoImage(file = "resources/images/ammarahface.png")
