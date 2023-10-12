@@ -15,7 +15,7 @@ game.geometry("1000x1000")
 scoreLbl = Label(game, text ='Score: {0}'.format(score), font = "50")  
 scoreLbl.pack() 
 
-izzy = PhotoImage(file = "izzyface.png")
+izzy = PhotoImage(file = "images/izzyface.png")
 
 faceBtn = tk.Button(game, image=izzy, command=clicker)
 faceBtn.pack()
