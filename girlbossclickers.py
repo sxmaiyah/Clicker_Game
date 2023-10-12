@@ -3,9 +3,10 @@ import tkinter as tk
 
 score = 0
 
-def clicker(score):
+def clicker():
+    global score
     score += 1
-    scoreLbl.config(text = "Score: {0}".format(score))
+    scoreLbl.config(text='Score: {0}'.format(score))
 
 game = Tk()
 game.title("Girl Boss Clickers")
@@ -16,7 +17,7 @@ scoreLbl.pack()
 
 izzy = PhotoImage(file = "izzyface.png")
 
-faceBtn = tk.Button(game, image=izzy, command=clicker(score))
+faceBtn = tk.Button(game, image=izzy, command=clicker)
 faceBtn.pack()
 
 game.mainloop()
