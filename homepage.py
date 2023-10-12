@@ -1,4 +1,5 @@
 from tkinter import *
+import girlbossclickers
 
 window = Tk()
 window.title("Girl Boss Clickers")
@@ -11,7 +12,7 @@ window.geometry("1600x1300")
 
 def gamePage():
     window.destroy()
-    #import girlbossclickers
+    girlbossclickers.main()
 
 frame = Frame(window)
 
