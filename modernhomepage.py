@@ -6,4 +6,4 @@ eel.init('resources')
 def demo(x):
     return x**2
 
-eel.start('index.html', size=(1600, 1300))
+eel.start('index.html', size=(1200, 1100))
