@@ -21,6 +21,7 @@ ammarahphoto = PhotoImage(file = "ammarahface.png")
 samphoto = PhotoImage(file = "samface.png")
 sumphoto = PhotoImage(file = "sumface.png")
 chrisphoto = PhotoImage(file = "chrisface.png")
+marcophoto = PhotoImage(file = "marcoface.png")
 
 Button(
     window,
@@ -55,6 +56,13 @@ Button(
     window,
     text="Chris", 
     image = chrisphoto,
+    command=gamePage
+    ).pack(fill=X, expand=TRUE, side=LEFT)
+
+Button(
+    window,
+    text="Marco", 
+    image = marcophoto,
     command=gamePage
     ).pack(fill=X, expand=TRUE, side=LEFT)
 
