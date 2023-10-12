@@ -1,4 +1,5 @@
 from tkinter import *
+import eel
 
 window = Tk()
 window.title("Girl Boss Clickers")
