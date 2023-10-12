@@ -2,7 +2,7 @@ from tkinter import *
 
 window = Tk()
 window.title("Girl Boss Clickers")
-window.geometry("1000x500")
+window.geometry("1150x1250")
 #window.resizable(width=False, height=False)
 #bg = PhotoImage(file = "background.png")
 
@@ -24,46 +24,52 @@ chrisphoto = PhotoImage(file = "chrisface.png")
 marcophoto = PhotoImage(file = "marcoface.png")
 
 Button(
-    window,
+    frame,
     text="Issie", image = issiephoto,
     command=gamePage
     ).grid(column=0, row=0)
 
-frame.pack(fill=X, expand=TRUE, side=LEFT)
+#frame.pack(fill=X, expand=TRUE, side=LEFT)
 
 Button(
-    window,
+    frame,
     text="Ammarah", 
     image = ammarahphoto,
     command=gamePage
-    ).pack(fill=X, expand=TRUE, side=LEFT)
+    ).grid(column=1, row=0)
+    #frame.pack(fill=X, expand=TRUE, side=LEFT)
 
 Button(
-    window,
+    frame,
     text="Sumaiyah", 
     image = sumphoto,
     command=gamePage
-    ).pack(fill=X, expand=TRUE, side=LEFT)
+    ).grid(column=2, row=0)
+    #frame.pack(fill=X, expand=TRUE, side=LEFT)
 
 Button(
-    window,
+    frame,
     text="Sam", 
     image = samphoto,
     command=gamePage
-    ).pack(fill=X, expand=TRUE, side=LEFT)
+    ).grid(column=0, row=1)
+    #frame.pack(fill=X, expand=TRUE, side=LEFT)
 
 Button(
-    window,
+    frame,
     text="Chris", 
     image = chrisphoto,
     command=gamePage
-    ).pack(fill=X, expand=TRUE, side=LEFT)
+    ).grid(column=1, row=1)
+    #frame.pack(fill=X, expand=TRUE, side=LEFT)
 
 Button(
-    window,
+    frame,
     text="Marco", 
     image = marcophoto,
     command=gamePage
-    ).pack(fill=X, expand=TRUE, side=LEFT)
+    ).grid(column=2, row=1)
+    #frame.pack(fill=X, expand=TRUE, side=LEFT)
 
+frame.pack()
 window.mainloop()
