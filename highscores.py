@@ -3,7 +3,8 @@ from tkinter import *
 def load_high_scores():
     try:
         with open("high_scores.txt", "r") as file:
-            high_scores = [line.strip().split(",") for line in file]
+            high_scores = [line.strip().split("-") for line in file]
+            high_scores = reversed(high_scores)
         return high_scores
     except FileNotFoundError:
         return []

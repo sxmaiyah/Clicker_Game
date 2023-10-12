@@ -1,1 +1,1 @@
-['1 Ammarah', '7 Sumaiyah', '250 John', '500 Marco']
+['1 - Ammarah', '1 - Amm', '7 - Sumaiyah', '7 - Suma', '250 - John', '250 - Jon', '250 - Johnny', '500 - Marco', '500 - Maro', '500 - Marc']
