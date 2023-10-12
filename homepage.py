@@ -16,13 +16,13 @@ def gamePage():
 frame = Frame(window)
 
 
-issiephoto = PhotoImage(file = "izzyface.png")
-ammarahphoto = PhotoImage(file = "ammarahface.png")
-samphoto = PhotoImage(file = "samface.png")
-sumphoto = PhotoImage(file = "sumface.png")
-chrisphoto = PhotoImage(file = "chrisface.png")
-marcophoto = PhotoImage(file = "marcoface.png")
-titlephoto = PhotoImage(file = "Title.png")
+issiephoto = PhotoImage(file = "images/izzyface.png")
+ammarahphoto = PhotoImage(file = "images/ammarahface.png")
+samphoto = PhotoImage(file = "images/samface.png")
+sumphoto = PhotoImage(file = "images/sumface.png")
+chrisphoto = PhotoImage(file = "images/chrisface.png")
+marcophoto = PhotoImage(file = "images/marcoface.png")
+titlephoto = PhotoImage(file = "images/Title.png")
 
 titleLabel = Label(frame, image = titlephoto, anchor = CENTER).grid(column=1, row=0) 
 
